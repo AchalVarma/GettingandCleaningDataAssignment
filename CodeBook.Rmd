@@ -1,0 +1,40 @@
+---
+title: "CodeBook"
+author: "Achal"
+date: "13/05/2020"
+output: html_document
+---
+
+
+## CodeBook for run_analysis
+
+
+features <- features.txt 
+Features holds the data table which holds the list of all the features
+
+activities <- activity_labels.txt
+activities holds the link of class label with the specific activities
+
+subject_test <- test/subject_test.txt
+
+  
+xtest <- test/X_test.txt
+This holds the test sets.
+
+ytest <- test/y_test.txt
+This holds the Test label.
+
+subject_train <- test/subject_train.txt
+Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+xtrain <- test/X_train.txt
+Training set.
+
+ytrain <- test/y_train.txt
+Training labels.
+
+data: holds the binded training and testing set.
+
+TidyData: all the changes are made to add descriptive labels in the dataset.
+
+FinalData: The data table that extracts the required information as per the mentioned criteria.
